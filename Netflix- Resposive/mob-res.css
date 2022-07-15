@@ -1,0 +1,556 @@
+/* Mobile Resposive */
+
+@media (max-width: 900px) {
+
+    * {
+        padding: 0%;
+        margin: 0%;
+        font-family: poppins;
+        box-sizing: border-box;
+        text-decoration: none;
+        list-style: none;
+    }
+
+
+    body {
+        height: 690vh;
+        width: 100%;
+        background: #000;
+    }
+
+    body header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    .hero-banner {
+        background: url(./Netflix/Netflix-Clone-main/Netflix-Clone-main/1.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+        width: 100%;
+
+    }
+
+    .hero-banner-opacity {
+        background: rgba(0, 0, 0, 0.7);
+        height: 100vh;
+        width: 100%;
+    }
+
+
+    /* logo */
+
+
+    .logo-netflix {
+        height: 29px;
+    }
+
+
+    /* logo ends */
+
+    /* header btn */
+
+    #header-btn {
+        padding: 6px 20px 6px 20px;
+        border-radius: 5px;
+        border: none;
+        background: red;
+        color: aliceblue;
+        cursor: pointer;
+        margin-top: 20px;
+        margin-right: -20px;
+    }
+
+
+
+
+    /* header btn ends */
+
+
+
+    /* main texts banner */
+
+
+    .banner-main-text {
+        display: flex;
+        justify-content: center;
+        color: aliceblue;
+        text-align: center;
+        line-height: 50px;
+        margin-top: 19vh;
+        font-size: 16px;
+    }
+
+
+    .hero-text-one p {
+        margin-top: 10px;
+        font-size: 17px;
+        width: 70%;
+        text-align: center;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+
+
+    .email-bar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2px;
+        margin-top: 20px;
+    }
+
+
+
+    #mail-bar-hero {
+        height: 40px;
+        width: 200px;
+        border-radius: 8px 0px 0px 8px;
+        border: none;
+        outline: none;
+        padding-left: 15px;
+    }
+
+    #mail-btn {
+        height: 40px;
+        width: 100px;
+        background: red;
+        color: aliceblue;
+        border: none;
+        border-radius: 0px 8px 8px 0px;
+        cursor: pointer;
+
+    }
+
+
+
+
+    /* main texts banner ends */
+
+
+
+
+    /* second hero */
+
+
+
+    .second-hero {
+        display: block;
+        height: 140vh;
+        width: 100%;
+    }
+
+
+    .second-hero .block1 {
+        height: 70vh;
+        width: 100%;
+        color: aliceblue;
+        padding-top: 30px;
+        margin-bottom: 10px;
+        font-size: 18px;
+        text-align: center;
+        padding-right: 60px;
+    }
+
+
+    .second-hero .block1 h1 {
+        margin-bottom: 20px;
+        margin-top: 60px;
+    }
+
+
+
+
+
+    .second-hero .block2 {
+        height: 70vh;
+        width: 100%;
+        margin-top: -200px;
+        margin-left: -270px;
+        margin-right: 3%;
+        display: flex;
+        justify-content: center;
+
+    }
+
+    .vdo-second {
+        border-radius: 5px;
+        margin-top: 78px;
+        position: absolute;
+        padding-left: 70px;
+        height: 220px;
+    }
+
+    .block2-tv {
+        position: absolute;
+        height: 400px;
+
+    }
+
+    .hr hr {
+        border: 4px solid rgba(128, 128, 128, 0.419);
+        margin-top: -130px;
+        margin-bottom: 100xp;
+    }
+
+
+
+    /* second hero rnds */
+
+
+
+    /* third hero */
+
+
+
+
+    .third-hero {
+        color: aliceblue;
+        display: block;
+        margin-top: 30px;
+        height: 140vh;
+
+
+    }
+
+    .third-hero .th-block1 {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .third-hero .th-block1 .th-img {
+
+        height: 400px;
+
+
+
+    }
+
+    .third-hero .th-block2 {
+        font-size: 18px;
+        padding-top: 50px;
+        margin-right: 100px;
+        text-align: center;
+        margin-left: 100px;
+
+    }
+
+    .third-hero .th-block2 p {
+        margin-top: 20px;
+    }
+
+    /* third hero ends */
+
+
+    .hr hr {
+        margin-top: 60px;
+    }
+
+
+
+
+    /* fourth-block */
+    .fourth-block {
+        display: block;
+        color: aliceblue;
+        height: 90vh;
+        width: 100%;
+
+
+    }
+
+
+
+    .fourth-block-one {
+        width: 100%;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+    }
+    .mob-4th-txt{
+margin-right: 200px;
+    }
+
+    .fourth-block-one h1 {
+        margin-top: 80px;
+
+    }
+
+    .fourth-block-one p {
+        margin-top: 20px;
+    }
+
+    .fourth-block-two {
+        position: relative;
+        width: 100%;
+        margin-top: 80px;
+        margin-left: -280px;
+        height: 400px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .fourth-block-two .fr-vdo {
+        position: absolute;
+        margin-top: -20px;
+        margin-left: 90px;
+        width: 350px;
+        height: 300px;
+    }
+
+    .fourth-block-two .fr-img {
+        position: absolute;
+        height: 400px;
+
+    }
+
+
+    .fourth-hr {
+        margin-bottom: 200px;
+        border-width: 4px;
+    }
+
+    /* fourth-block ends */
+
+
+
+
+
+
+
+
+
+
+
+
+/* fifth block */
+
+
+
+
+.fifth-block {
+    display: block;
+    color: aliceblue;
+}
+
+
+.ff-block1{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.fifth-block .ff-img {
+    height: 350px;
+    width: auto;
+ 
+}
+
+
+.ff-block2{
+    text-align: center;
+    font-size: 18px;
+}
+
+.ff-block2 p {
+    margin-top: 25px;
+}
+
+
+.ff-hr hr {
+    margin-top: 100px;
+    border-width: 4px;
+}
+
+/* fifth block ends */
+
+
+
+/* sixth-block */
+.sixth-block {
+    text-align: center;
+    font-size: 25px;
+    color: aliceblue;
+    margin-top: 100px;
+}
+
+.sixth-block .data {
+    margin-top: 100px;
+}
+
+.sixth-block .data1 {
+    width: 60%;
+    background: rgba(128, 128, 128, 0.294);
+    margin: auto;
+    height: 80px;
+    padding-top: 5px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px 0px 40px;
+    font-size: 15px;
+}
+
+.sixth-block .data1 .fa-plus {
+    font-size: 20px;
+}
+
+
+
+.sixth-block .data1 p {
+    display: none;
+}
+
+.sixth-block .data-wiki {
+    text-align: left;
+    height: 230px;
+    width: 60%;
+    background: rgba(128, 128, 128, 0.294);
+    margin: auto;
+    border-radius: 10px;
+
+}
+
+.js-data1,
+.js-data2,
+.js-data3,
+.js-data4,
+.js-data5{
+    display: none;
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+
+
+.sixth-block .js-data3{
+    height: 360px;
+}
+
+
+
+
+
+
+
+
+
+
+.sixth-block .Last-form p{
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+
+
+.last-from-email{
+    margin-top: 40px;
+}
+
+.last-from-email #mail-bar-hero{
+    width: 500px;
+    height: 60px;
+}
+.last-from-email #mail-btn{
+    height: 60px;
+}
+
+
+
+
+
+.Last-form hr{
+    border: 5px solid rgba(128, 128, 128, 0.294);
+    margin-top: 70px;
+
+}
+
+
+
+
+/* sixth-block ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile Resposive over */
